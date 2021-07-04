@@ -1,6 +1,6 @@
 public class duplicate {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 2, 7, 8, 8, 3};
+        int[] arr = {10,20,20,30,30,40,50,50};
 
         for(int i=0; i<arr.length; i++)
         {
@@ -12,7 +12,7 @@ public class duplicate {
                     count++;
                 }
             }
-            if(count > 1)
+            if(count <= 1)
             {
                 System.out.println(arr[i]);
             }
