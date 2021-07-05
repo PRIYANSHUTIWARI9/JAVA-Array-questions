@@ -2,8 +2,12 @@ package Matrix_Question;
 
 public class adding {
     public static void main(String[] args) {
-        int[][] a = {{1,2,3}, {2,3,4}, {3,4,5}};
-        int[][] b = {{4,5,6}, {5,6,7}, {6,7,8}};
+        int[][] a = {{1,2,3}, 
+                    {2,3,4}, 
+                    {3,4,5}};
+        int[][] b = {{4,5,6}, 
+                    {5,6,7}, 
+                    {6,7,8}};
 
         int[][] c = new int[3][3];
         
