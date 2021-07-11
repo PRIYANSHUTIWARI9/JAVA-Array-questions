@@ -15,7 +15,7 @@ public class deleteValue {
 		char arr[]=new char[6];
 		arr[0]='A';
 		arr[1]='B';
-		arr[2]='J';
+		arr[2]='y';
 		arr[3]='C';
 		arr[4]='D';
 		arr[5]='E';
